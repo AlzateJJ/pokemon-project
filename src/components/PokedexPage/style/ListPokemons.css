@@ -8,15 +8,16 @@
 
         .page__number {
             cursor: pointer;
-            padding: 0.5em;
             color: white;
             font-weight: 800;
             border: 0.3em solid rgb(236, 99, 7);
             border-radius: 0.2em;
             background-color: rgb(238, 112, 29);
             width: 2.2rem;
-            text-align: center;
             transition: transform 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             &:hover {
                 filter: brightness(1.2);
